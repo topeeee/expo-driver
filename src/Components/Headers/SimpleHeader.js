@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
-import { Text } from '../'
-import MIcon from "react-native-vector-icons/MaterialCommunityIcons";
+import Text from '../Text'
 import { arrow_back_left } from "../../images";
 const SimpleHeader = ({ }) => {
 

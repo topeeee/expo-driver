@@ -1,9 +1,10 @@
 import React from 'react';
 import {View, StyleSheet, Image, Dimensions} from 'react-native';
 import {welcome_banner} from '../../images';
-import {Text} from '../../Components';
-import {SimpleHeader, LargeHeader, Button} from '../../Components';
-
+import Text from '../../Components/Text';
+import SimpleHeader from '../../Components/Headers/SimpleHeader';
+import LargeHeader from "../../Components/Headers/LargeHeader";
+import Button from "../../Components/Button";
 const {width} = Dimensions.get('window');
 const Welcome = ({navigation}) => {
   return (

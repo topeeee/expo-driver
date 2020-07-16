@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Image, Dimensions, ScrollView } from 'react-native'
 import { forget_password } from "../../images";
-import { Text } from '../../Components';
+import Text  from '../../Components/Text';
 import { SimpleHeader, LargeHeader, Button, Input, GoogleLoginButton, FacebookLoginButton } from '../../Components'
 
 

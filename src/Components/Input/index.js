@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, TextInput} from 'react-native';
-import {Text} from '..';
+import Text from '../Text';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 const Input = ({label, value, style, placeholder, icon, onChangeText, secureTextEntry}) => {
   return (

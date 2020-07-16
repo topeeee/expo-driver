@@ -1,23 +1,18 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 
 import {
   View,
   StyleSheet,
-  Image,
-  Dimensions,
   ScrollView,
   AsyncStorage,
 } from 'react-native';
 
-import {Text} from '../../Components';
-import {
-  SimpleHeader,
-  LargeHeader,
-  Button,
-  Input,
-  GoogleLoginButton,
-  FacebookLoginButton,
-} from '../../Components';
+import Text from '../../Components/Text';
+import  SimpleHeader from '../../Components/Headers/SimpleHeader'
+import  LargeHeader  from '../../Components/Headers/LargeHeader'
+import  Button from '../../Components/Button'
+import Input from '../../Components/Input'
+
 import axios from 'axios';
 import api from '../../environments/environment';
 

@@ -71,7 +71,6 @@ export async function getToken() {
   try {
     let userData = await AsyncStorage.getItem('userData');
     let data = JSON.parse(userData);
-    console.log(data, 'fffffffffffffffffffffffffffff');
   } catch (error) {
     console.log('Something went wrong', error);
   }

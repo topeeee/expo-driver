@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
-import { Text } from '../';
+import Text from '../Text';
 import { logo_mini } from '../../images'
 const LargeHeader = ({ heading, subHeadeing, titleImageSource }) => {
     return (

@@ -1,7 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {View, StyleSheet, Image, Dimensions, AsyncStorage} from 'react-native';
 import {logo, splash_bottom_banner} from '../../images';
-import {Text} from '../../Components';
+import Text from '../../Components/Text';
 
 const {width} = Dimensions.get('window');
 
@@ -17,7 +17,6 @@ const Splash = ({navigation}) => {
         navigation.navigate('Login');
       }
     } catch (error) {
-      // console.log('Something went wrong', error);
     }
   }
 

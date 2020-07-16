@@ -3,28 +3,22 @@ import {
   View,
   StyleSheet,
   Image,
-  Dimensions,
-  ScrollView,
-  Switch,
-  TouchableHighlightBase,
   AsyncStorage,
 } from 'react-native';
 import axios from 'axios';
 import {
   offline_moon,
   menu,
-  curruncy_logo,
   mobile_icon,
   marker,
 } from '../../images';
-import {Text} from '../../Components';
+import Text from '../../Components/Text';
 import RBSheet from 'react-native-raw-bottom-sheet';
 import Switches from 'react-native-switches';
 import MapView, {Marker} from 'react-native-maps';
-// import LinearGradient from 'react-native-linear-gradient';
-import BottomContentDriverOffline from './BottomContentDriverOffline';
-import BottomContentDriverOnline from './BottomContentDriverOnline';
-import {Popup} from '../';
+import BottomContentDriverOffline from '../BottomContentDriverOffline';
+import BottomContentDriverOnline from '../BottomContentDriverOnline';
+import Popup from '../Popup';
 import api from '../../environments/environment';
 import { LinearGradient } from 'expo-linear-gradient';
 
